@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "this is my first desktop app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electronmon main.js",
+     "dev:watch": "npm electronmon --trace-warnings ."
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "typescript"
+  ],
+  "author": "Aman",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.3.0",
+    "electronmon": "^2.0.3"
+  }
+}
